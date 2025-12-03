@@ -16,23 +16,30 @@ export type DeviceCategory = {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	Redmi: [
 		{
-			name: "OnePlus 13T",
+			name: "Redmi K80 Ultrl",
 			image: "/images/device/oneplus13t.png",
-			specs: "Gray / 16G + 1TB",
-			description: "Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
+			specs: "Gray / 16G + 256GB",
+			description: "Flagship performance,  100W SuperVOOC.",
+			link: "https://www.mi.com/prod/redmi-k80-ultra",
+		},
+		{
+			name: "Redmi Note 11 T Pro",
+			image: "/images/device/oneplus13t.png",
+			specs: "XAGA / 8G + 256GB",
+			description: "Flagship performance,  67W SuperVOOC.",
+			link: "https://www.mi.com/prod/redmi-k80-ultra",
 		},
 	],
-	Router: [
+	OnePlus: [
 		{
-			name: "GL-MT3000",
+			name: "一加平板 pro",
 			image: "/images/device/mt3000.png",
-			specs: "1000Mbps / 2.5G",
+			specs: "Gray / 16G + 512GB",
 			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"非常强力的平板.",
+			link: "https://www.oppo.com/cn/oneplus/tablets/",
 		},
 	],
 };
