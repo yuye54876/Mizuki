@@ -20,7 +20,7 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
+	title: "天依",
 	subtitle: "my blog",
 	siteURL: "https://sky1314.dpdns.org/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-12-03", // 站点开始运行日期，用于站点统计组件计算运行天数
@@ -39,8 +39,8 @@ export const siteConfig: SiteConfig = {
 		anime: true, // 番剧页面开关
 		diary: true, // 日记页面开关
 		friends: true, // 友链页面开关
-		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
+		projects: false, // 项目页面开关
+		skills: false, // 技能页面开关
 		timeline: true, // 时间线页面开关
 		albums: true, // 相册页面开关
 		devices: false, // 设备页面开关
@@ -304,16 +304,7 @@ export const navBarConfig: NavBarConfig = {
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
+				
 				{
 					name: "Timeline",
 					url: "/timeline/",
@@ -325,7 +316,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/luo.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "sky",
 	bio: "世界很大，我想去看看。",
 	typewriter: {
@@ -341,18 +332,14 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Gitee",
 			icon: "mdi:git",
-			url: "https://github.com/yuye54876",
+			url: "https://gitee.com/yuye54876",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/yuye54876",
 		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
+	
 		
 	],
 };
